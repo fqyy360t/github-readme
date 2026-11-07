@@ -1,0 +1,5 @@
+# 纯文本仓库：统一用 LF，避免 Windows checkout 出 CRLF 造成无意义 diff
+* text=auto eol=lf
+
+# SVG 必须保持 LF（部分渲染器对 CRLF 敏感）
+*.svg text eol=lf
