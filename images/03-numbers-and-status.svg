@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="可信度两件套图：左侧为数字四件套公式（数字加分母加这一轮口径加来源），配83.8%正例与'准确率提升到98%'反例；右侧为六分类状态词谱系（未见实现、方向待定、代码已有、局部实测、报告待验证、完整验收）及各自动判据；底部结论为缺任何一个四件套数字就从资产变负债，全文搜不到已完成。">
+  <rect width="1200" height="620" fill="#ffffff"/>
+
+  <text x="48" y="50" font-family="sans-serif" font-size="25" font-weight="700" fill="#111827">可信度两件套：数字不裸奔，状态只用六分类</text>
+  <text x="48" y="80" font-family="sans-serif" font-size="14" fill="#6b7280">README 里每一个能被追问的地方，都靠这两样扛住。先给自己的数字打个折，读者反而全信了。</text>
+
+  <!-- ═══ 左：数字四件套 ═══ -->
+  <text x="48" y="122" font-family="sans-serif" font-size="15" font-weight="700" fill="#111827">数字四件套</text>
+  <text x="48" y="142" font-family="sans-serif" font-size="12" fill="#6b7280">缺任何一个，数字就从资产变成负债 —— 不写</text>
+
+  <!-- 公式条 -->
+  <g font-family="sans-serif" text-anchor="middle">
+    <rect x="48" y="158" width="112" height="56" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="104" y="180" font-size="11" fill="#3b82f6">① 数字</text>
+    <text x="104" y="202" font-size="13" font-weight="700" fill="#1d4ed8">83.8%</text>
+
+    <text x="176" y="192" font-size="16" font-weight="700" fill="#9ca3af">＋</text>
+
+    <rect x="198" y="158" width="112" height="56" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="254" y="180" font-size="11" fill="#3b82f6">② 分母</text>
+    <text x="254" y="202" font-size="13" font-weight="700" fill="#1d4ed8">62/74</text>
+
+    <text x="326" y="192" font-size="16" font-weight="700" fill="#9ca3af">＋</text>
+
+    <rect x="348" y="158" width="112" height="56" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="404" y="180" font-size="11" fill="#3b82f6">③ 这一轮口径</text>
+    <text x="404" y="202" font-size="12" font-weight="700" fill="#1d4ed8">首轮硬断言</text>
+
+    <text x="476" y="192" font-size="16" font-weight="700" fill="#9ca3af">＋</text>
+
+    <rect x="498" y="158" width="102" height="56" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="549" y="180" font-size="11" fill="#3b82f6">④ 来源</text>
+    <text x="549" y="202" font-size="12" font-weight="700" fill="#1d4ed8">[历史结果]</text>
+  </g>
+
+  <!-- 正例 -->
+  <rect x="48" y="234" width="552" height="164" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="68" y="260" font-family="sans-serif" font-size="13" font-weight="700" fill="#166534">✓ 正例：四件套齐全，还主动防误读</text>
+  <text x="68" y="286" font-family="sans-serif" font-size="12.5" fill="#15803d">83.8%（62/74）｜历史在线核心任务首轮硬性断言通过率｜[历史结果]</text>
+  <text x="68" y="306" font-family="sans-serif" font-size="12.5" fill="#15803d">98.6%（73/74）｜修复后核心任务单轮复测硬性断言通过率｜[修复复测]</text>
+  <line x1="68" y1="322" x2="580" y2="322" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="68" y="346" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#166534">还专门写一段防误读：</text>
+  <text x="68" y="368" font-family="sans-serif" font-size="12.5" fill="#15803d">"以上是不同版本的历史记录与复测，不能合并解释为</text>
+  <text x="68" y="386" font-family="sans-serif" font-size="12.5" fill="#15803d">'问题解决率从 83% 提高到 98%'。"</text>
+
+  <!-- 反例 -->
+  <rect x="48" y="410" width="552" height="112" rx="8" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="68" y="436" font-family="sans-serif" font-size="13" font-weight="700" fill="#991b1c">✗ 反例：一句话踩三个坑</text>
+  <text x="68" y="462" font-family="sans-serif" font-size="12.5" fill="#b91c1c">"准确率提升到 98%" —— 没分母（多少样本？）、</text>
+  <text x="68" y="482" font-family="sans-serif" font-size="12.5" fill="#b91c1c">没口径（哪一轮？硬断言还是人工？）、没来源（在哪看？），</text>
+  <text x="68" y="502" font-family="sans-serif" font-size="12.5" fill="#b91c1c">还隐含了一次根本不存在的版本间比较。</text>
+
+  <!-- ═══ 右：六分类 ═══ -->
+  <text x="624" y="122" font-family="sans-serif" font-size="15" font-weight="700" fill="#111827">六分类状态词</text>
+  <text x="624" y="142" font-family="sans-serif" font-size="12" fill="#6b7280">全文搜不到"已完成 / 已支持 / 基本可用"</text>
+
+  <g font-family="sans-serif">
+    <rect x="624" y="158" width="528" height="48" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <rect x="624" y="158" width="5" height="48" rx="2" fill="#9ca3af"/>
+    <text x="646" y="180" font-size="13" font-weight="700" fill="#374151">未见实现</text>
+    <text x="760" y="180" font-size="12" fill="#6b7280">对外说过，代码里没有</text>
+
+    <rect x="624" y="214" width="528" height="48" rx="6" fill="#faf5ff" stroke="#d8b4fe"/>
+    <rect x="624" y="214" width="5" height="48" rx="2" fill="#a855f7"/>
+    <text x="646" y="236" font-size="13" font-weight="700" fill="#7e22ce">方向待定</text>
+    <text x="760" y="236" font-size="12" fill="#9333ea">只是规划，没排期、没验证</text>
+
+    <rect x="624" y="270" width="528" height="48" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="624" y="270" width="5" height="48" rx="2" fill="#64748b"/>
+    <text x="646" y="292" font-size="13" font-weight="700" fill="#334155">代码已有</text>
+    <text x="760" y="292" font-size="12" fill="#475569">写完了，没测过</text>
+
+    <rect x="624" y="326" width="528" height="48" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+    <rect x="624" y="326" width="5" height="48" rx="2" fill="#3b82f6"/>
+    <text x="646" y="348" font-size="13" font-weight="700" fill="#1d4ed8">局部实测</text>
+    <text x="760" y="348" font-size="12" fill="#2563eb">只在本机跑过 / 只测过一个型号</text>
+
+    <rect x="624" y="382" width="528" height="48" rx="6" fill="#fffbeb" stroke="#fcd34d"/>
+    <rect x="624" y="382" width="5" height="48" rx="2" fill="#f59e0b"/>
+    <text x="646" y="404" font-size="13" font-weight="700" fill="#b45309">报告待验证</text>
+    <text x="760" y="404" font-size="12" fill="#d97706">有原始报告，未复核口径</text>
+
+    <rect x="624" y="438" width="528" height="48" rx="6" fill="#f0fdf4" stroke="#86efac"/>
+    <rect x="624" y="438" width="5" height="48" rx="2" fill="#22c55e"/>
+    <text x="646" y="460" font-size="13" font-weight="700" fill="#166534">完整验收</text>
+    <text x="760" y="460" font-size="12" fill="#15803d">有证据、可复现、口径已对齐</text>
+  </g>
+
+  <rect x="624" y="498" width="528" height="44" rx="6" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="644" y="518" font-family="sans-serif" font-size="12" fill="#4b5563">按"做到哪"排序：没做 → 只是规划 → 写完 → 测了一点</text>
+  <text x="644" y="536" font-family="sans-serif" font-size="12" fill="#4b5563">→ 有报告 → 验收。读者自己会往上走，你不用替他表态。</text>
+
+  <!-- ═══ 底部判据 ═══ -->
+  <rect x="48" y="560" width="1104" height="44" rx="8" fill="#111827"/>
+  <text x="68" y="587" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">判据：写出每个数字前问一遍 —— 分母在哪？哪一轮的？在哪能查到？三问答不上来，这个数字先不写。</text>
+</svg>

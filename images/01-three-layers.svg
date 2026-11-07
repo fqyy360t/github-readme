@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" width="1200" height="880" role="img" aria-label="README 三层分流器结构图：左侧为浏览器滚动轮廓，从上到下五段依次是第一屏（12行，决定要不要往下看）、分流表（4行，决定读哪一路）、正文六段（共60行）、仓库结构（12行，决定工程是不是真的）、结尾（按收件人动机换）；右侧为每段的写法要点与行数上限；底部判据为全文不超过120行，超过就移到 docs。">
+  <rect width="1200" height="880" fill="#ffffff"/>
+
+  <text x="48" y="50" font-family="sans-serif" font-size="25" font-weight="700" fill="#111827">README 的三层分流器</text>
+  <text x="48" y="80" font-family="sans-serif" font-size="14" fill="#6b7280">全文 ≤ 120 行是硬线 —— 超过就是结构文档，不是 README。读者往下滚的每一屏，都在回答一个不同的问题。</text>
+
+  <!-- ═══ 左侧：浏览器滚动轮廓 ═══ -->
+  <rect x="48" y="110" width="200" height="640" rx="10" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <circle cx="66" cy="126" r="4" fill="#d1d5db"/>
+  <circle cx="80" cy="126" r="4" fill="#d1d5db"/>
+  <circle cx="94" cy="126" r="4" fill="#d1d5db"/>
+  <line x1="48" y1="140" x2="248" y2="140" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- 段1 第一屏 -->
+  <rect x="60" y="152" width="176" height="90" rx="6" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="148" y="182" font-family="sans-serif" font-size="13" font-weight="700" fill="#c2410c" text-anchor="middle">第一屏</text>
+  <text x="148" y="204" font-family="sans-serif" font-size="11" fill="#ea580c" text-anchor="middle">名字 / 一句话 / 入口</text>
+  <text x="148" y="226" font-family="sans-serif" font-size="11" font-weight="700" fill="#c2410c" text-anchor="middle">12 行内</text>
+
+  <!-- 段2 分流表 -->
+  <rect x="60" y="250" width="176" height="66" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="148" y="276" font-family="sans-serif" font-size="13" font-weight="700" fill="#374151" text-anchor="middle">分流表</text>
+  <text x="148" y="298" font-family="sans-serif" font-size="11" font-weight="700" fill="#6b7280" text-anchor="middle">4 行</text>
+
+  <!-- 段3 正文六段 -->
+  <rect x="60" y="324" width="176" height="304" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="148" y="354" font-family="sans-serif" font-size="13" font-weight="700" fill="#1d4ed8" text-anchor="middle">正文六段</text>
+  <text x="148" y="374" font-family="sans-serif" font-size="10.5" fill="#3b82f6" text-anchor="middle">① 问题  ② 功能</text>
+  <text x="148" y="392" font-family="sans-serif" font-size="10.5" fill="#3b82f6" text-anchor="middle">③ 核心设计</text>
+  <text x="148" y="410" font-family="sans-serif" font-size="10.5" fill="#3b82f6" text-anchor="middle">④ 怎么跑</text>
+  <text x="148" y="428" font-family="sans-serif" font-size="10.5" fill="#3b82f6" text-anchor="middle">⑤ 验证结果</text>
+  <text x="148" y="446" font-family="sans-serif" font-size="10.5" fill="#3b82f6" text-anchor="middle">⑥ 边界</text>
+  <text x="148" y="486" font-family="sans-serif" font-size="11" font-weight="700" fill="#1d4ed8" text-anchor="middle">共 60 行</text>
+  <text x="148" y="508" font-family="sans-serif" font-size="10.5" fill="#60a5fa" text-anchor="middle">每段 ≤ 10 行</text>
+
+  <!-- 段4 仓库结构 -->
+  <rect x="60" y="636" width="176" height="88" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="148" y="666" font-family="sans-serif" font-size="13" font-weight="700" fill="#374151" text-anchor="middle">仓库结构</text>
+  <text x="148" y="690" font-family="sans-serif" font-size="11" font-weight="700" fill="#6b7280" text-anchor="middle">12 行</text>
+  <text x="148" y="710" font-family="sans-serif" font-size="10.5" fill="#9ca3af" text-anchor="middle">每行一句职责</text>
+
+  <!-- 段5 结尾 -->
+  <rect x="60" y="730" width="176" height="18" rx="6" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <text x="148" y="743" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#6d28d9" text-anchor="middle">结尾 · 按动机换</text>
+
+  <!-- 滚动提示 -->
+  <text x="148" y="772" font-family="sans-serif" font-size="10.5" fill="#9ca3af" text-anchor="middle">↓ 读者滚动方向</text>
+
+  <!-- ═══ 右侧：各层说明卡片 ═══ -->
+
+  <!-- 引线 -->
+  <g stroke="#d1d5db" stroke-width="1">
+    <line x1="248" y1="197" x2="290" y2="197"/>
+    <line x1="248" y1="280" x2="290" y2="280"/>
+    <line x1="248" y1="479" x2="290" y2="479"/>
+    <line x1="248" y1="689" x2="290" y2="689"/>
+    <line x1="248" y1="765" x2="290" y2="765"/>
+  </g>
+
+  <!-- 卡片1：第一屏 -->
+  <rect x="290" y="110" width="862" height="100" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+  <rect x="1064" y="126" width="72" height="22" rx="11" fill="#ea580c"/>
+  <text x="1100" y="141" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">≤ 12 行</text>
+  <text x="310" y="141" font-family="sans-serif" font-size="14" font-weight="700" fill="#9a3412">第一屏 · 分流器，不是目录</text>
+  <text x="310" y="168" font-family="sans-serif" font-size="13" fill="#7c2d12">名字 ＋ 一句话 ＋ 【一个巨大的入口】＋ 一行辅助链接。把"讲清楚"的责任外包给一个图文页，README 只负责把人送过去。</text>
+  <text x="310" y="194" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#c2410c">决定：陌生人要不要往下看</text>
+
+  <!-- 卡片2：分流表 -->
+  <rect x="290" y="216" width="862" height="100" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <rect x="1064" y="232" width="72" height="22" rx="11" fill="#4b5563"/>
+  <text x="1100" y="247" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">≤ 4 行</text>
+  <text x="310" y="247" font-family="sans-serif" font-size="14" font-weight="700" fill="#111827">从哪里开始阅读 · 按目的分四路</text>
+  <text x="310" y="274" font-family="sans-serif" font-size="12.5" fill="#4b5563">快速理解 → 核心设计 / 功能 / 验证结果　　跑起来 → 怎么跑 / 常见问题</text>
+  <text x="310" y="294" font-family="sans-serif" font-size="12.5" fill="#4b5563">审代码 → 项目结构 / 主链路　　看过程 → 复盘 / 讲解稿。每路 3–5 跳。</text>
+  <text x="310" y="310" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#374151">决定：读哪一路（四种读者想要的完全相反，一条路径必然得罪三个）</text>
+
+  <!-- 卡片3：正文六段 -->
+  <rect x="290" y="324" width="862" height="310" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <rect x="1064" y="340" width="72" height="22" rx="11" fill="#2563eb"/>
+  <text x="1100" y="355" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">共 60 行</text>
+  <text x="310" y="355" font-family="sans-serif" font-size="14" font-weight="700" fill="#1e3a8a">正文六段 · 每段 ≤ 10 行，表格不算行数</text>
+
+  <g font-family="sans-serif">
+    <text x="310" y="386" font-size="12.5" font-weight="700" fill="#1d4ed8">① 这是什么问题</text>
+    <text x="440" y="386" font-size="12.5" fill="#1e40af">3 行 ＋ 1 张"场景难点 → 处理方式"对比表。不从"随着 XX 行业发展"开头。</text>
+
+    <text x="310" y="416" font-size="12.5" font-weight="700" fill="#1d4ed8">② 功能是什么</text>
+    <text x="440" y="416" font-size="12.5" fill="#1e40af">分端列，每条一句，只写"用户能感知的差异"，不写实现、不写框架。</text>
+
+    <text x="310" y="446" font-size="12.5" font-weight="700" fill="#1d4ed8">③ 三个核心设计</text>
+    <text x="440" y="446" font-size="12.5" fill="#1e40af">每条必须含一句"我们没有做什么"——分辨"真做过"和"听说过"的唯一依据。</text>
+
+    <text x="310" y="476" font-size="12.5" font-weight="700" fill="#1d4ed8">④ 怎么跑</text>
+    <text x="440" y="476" font-size="12.5" fill="#1e40af">三条命令封顶，且在新 clone 的空目录里验证过。多一条就有人放弃。</text>
+
+    <text x="310" y="506" font-size="12.5" font-weight="700" fill="#1d4ed8">⑤ 验证结果</text>
+    <text x="440" y="506" font-size="12.5" fill="#1e40af">数字四件套：数字 ＋ 分母 ＋ 这一轮口径 ＋ 来源。状态只用六分类。</text>
+
+    <text x="310" y="536" font-size="12.5" font-weight="700" fill="#1d4ed8">⑥ 边界</text>
+    <text x="440" y="536" font-size="12.5" fill="#1e40af">3–6 条，分三栏：没做的 / 没验证的 / 会崩的。最后一条不能省。</text>
+
+    <rect x="310" y="556" width="822" height="60" rx="6" fill="#dbeafe" stroke="#93c5fd"/>
+    <text x="330" y="580" font-size="12.5" font-weight="700" fill="#1e3a8a">这六段决定：这工程是不是真的。</text>
+    <text x="330" y="602" font-size="12" fill="#1e40af">①③⑥ 是可信度来源，④⑤ 是"真能跑"的来源。任何一段写虚了，前面两屏的分流就白做了。</text>
+  </g>
+
+  <!-- 卡片4：仓库结构 -->
+  <rect x="290" y="646" width="862" height="86" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <rect x="1064" y="662" width="72" height="22" rx="11" fill="#4b5563"/>
+  <text x="1100" y="677" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">≤ 12 行</text>
+  <text x="310" y="677" font-family="sans-serif" font-size="14" font-weight="700" fill="#111827">仓库结构 · 只列有职责的层</text>
+  <text x="310" y="704" font-family="sans-serif" font-size="13" fill="#4b5563">每行一句职责，不贴 tree 全量，不出现 package-lock.json 这类噪声。判据：删掉这行，读的人会不会误解这块？会，才留。</text>
+  <text x="310" y="724" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#374151">决定：这工程是不是真的（与结构文档是两个读者）</text>
+
+  <!-- 卡片5：结尾 -->
+  <rect x="290" y="744" width="862" height="42" rx="8" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <text x="310" y="762" font-family="sans-serif" font-size="13" font-weight="700" fill="#5b21b6">结尾 · 按收件人动机换</text>
+  <text x="310" y="780" font-family="sans-serif" font-size="12.5" fill="#6d28d9">A 招人 · B 生态 · C 投资招商 · D 社区技术 · E 政府命题 · F 内部交付 —— 判错型比内容差更难救。</text>
+
+  <!-- ═══ 底部判据 ═══ -->
+  <rect x="48" y="804" width="1104" height="58" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="68" y="829" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#111827">判据只有一条：手机打开，第一屏能不能看到 名字 / 一句话 / 一个能点的入口。</text>
+  <text x="68" y="851" font-family="sans-serif" font-size="13" fill="#4b5563">能 → 合格。不能 → 把"讲清楚"搬进图文页，别把 README 写长。任何一段超出行数上限，移到 docs/，不是删字。</text>
+</svg>

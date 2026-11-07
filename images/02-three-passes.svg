@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-label="README 分三次写时间轴图：第一遍在项目能跑之后写第一屏、怎么跑、边界三段共40分钟；第二遍在功能冻结前写验证结果与截图共30分钟；第三遍在对外交付前写口径对照与结尾共60分钟。底部提示分流表可最后写，边界段绝对不能最后写。">
+  <rect width="1200" height="660" fill="#ffffff"/>
+
+  <text x="48" y="50" font-family="sans-serif" font-size="25" font-weight="700" fill="#111827">README 分三次写，不是一次</text>
+  <text x="48" y="80" font-family="sans-serif" font-size="14" fill="#6b7280">按材料成熟度分三遍，每遍只写当时写得真的部分。写不出来，说明材料没齐 —— 那就别写。</text>
+
+  <!-- ═══ 时间轴 ═══ -->
+  <line x1="120" y1="140" x2="1080" y2="140" stroke="#d1d5db" stroke-width="2"/>
+  <g>
+    <circle cx="250" cy="140" r="7" fill="#2563eb"/>
+    <circle cx="600" cy="140" r="7" fill="#7c3aed"/>
+    <circle cx="950" cy="140" r="7" fill="#dc2626"/>
+  </g>
+  <g font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <text x="250" y="126" fill="#1d4ed8">第一遍</text>
+    <text x="600" y="126" fill="#6d28d9">第二遍</text>
+    <text x="950" y="126" fill="#b91c1c">第三遍</text>
+  </g>
+  <g font-family="sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+    <text x="250" y="164">能跑之后</text>
+    <text x="600" y="164">功能冻结前</text>
+    <text x="950" y="164">对外交付前</text>
+  </g>
+
+  <!-- ═══ 三张卡片 ═══ -->
+
+  <!-- 卡片 1 -->
+  <rect x="48" y="190" width="352" height="290" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+  <rect x="72" y="212" width="304" height="34" rx="6" fill="#2563eb"/>
+  <text x="224" y="235" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">第一屏 ＋ 怎么跑 ＋ 边界</text>
+
+  <text x="72" y="278" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#1d4ed8">写哪几段</text>
+  <text x="72" y="300" font-family="sans-serif" font-size="12.5" fill="#1e40af">① 第一屏：名字 / 一句话 / 一个入口</text>
+  <text x="72" y="320" font-family="sans-serif" font-size="12.5" fill="#1e40af">② 怎么跑：三条命令 ＋ 四个入口</text>
+  <text x="72" y="340" font-family="sans-serif" font-size="12.5" fill="#1e40af">③ 已知边界：没做 / 没验证 / 会崩</text>
+
+  <line x1="72" y1="356" x2="376" y2="356" stroke="#bfdbfe" stroke-width="1"/>
+
+  <text x="72" y="380" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#1d4ed8">耗时</text>
+  <text x="376" y="380" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e3a8a" text-anchor="end">40 min</text>
+
+  <text x="72" y="406" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#1d4ed8">为什么是这个时点</text>
+  <text x="72" y="428" font-family="sans-serif" font-size="12" fill="#1e40af">这三段决定"别人能不能碰你的项目"。</text>
+  <text x="72" y="446" font-family="sans-serif" font-size="12" fill="#1e40af">越早写越早发现问题 —— 往往发现命令</text>
+  <text x="72" y="464" font-family="sans-serif" font-size="12" fill="#1e40af">在新目录里根本跑不通。</text>
+
+  <!-- 卡片 2 -->
+  <rect x="424" y="190" width="352" height="290" rx="10" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <rect x="448" y="212" width="304" height="34" rx="6" fill="#7c3aed"/>
+  <text x="600" y="235" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">验证结果 ＋ 截图</text>
+
+  <text x="448" y="278" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#6d28d9">写哪几段</text>
+  <text x="448" y="300" font-family="sans-serif" font-size="12.5" fill="#5b21b6">④ 验证结果：真实输出 ＋ 状态表</text>
+  <text x="448" y="320" font-family="sans-serif" font-size="12.5" fill="#5b21b6">⑤ 截图：≥1080p，别截代码</text>
+  <text x="448" y="340" font-family="sans-serif" font-size="12.5" fill="#5b21b6">（数字四件套在这一段落地）</text>
+
+  <line x1="448" y1="356" x2="752" y2="356" stroke="#ddd6fe" stroke-width="1"/>
+
+  <text x="448" y="380" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#6d28d9">耗时</text>
+  <text x="752" y="380" font-family="sans-serif" font-size="13" font-weight="700" fill="#4c1d95" text-anchor="end">30 min</text>
+
+  <text x="448" y="406" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#6d28d9">为什么是这个时点</text>
+  <text x="448" y="428" font-family="sans-serif" font-size="12" fill="#5b21b6">只能用冻结后的输出。早写等于写了</text>
+  <text x="448" y="446" font-family="sans-serif" font-size="12" fill="#5b21b6">个假的 —— 功能还在动，数字明天就</text>
+  <text x="448" y="464" font-family="sans-serif" font-size="12" fill="#5b21b6">不成立，而读者会拿它当真。</text>
+
+  <!-- 卡片 3 -->
+  <rect x="800" y="190" width="352" height="290" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <rect x="824" y="212" width="304" height="34" rx="6" fill="#dc2626"/>
+  <text x="976" y="235" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">口径对照 ＋ 结尾</text>
+
+  <text x="824" y="278" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#b91c1c">写哪几段</text>
+  <text x="824" y="300" font-family="sans-serif" font-size="12.5" fill="#991b1b">⑥ 口径对照：当时说的 vs 现在代码里的</text>
+  <text x="824" y="320" font-family="sans-serif" font-size="12.5" fill="#991b1b">⑦ 结尾：按收件人动机 A–F 换</text>
+  <text x="824" y="340" font-family="sans-serif" font-size="12.5" fill="#991b1b">（对外交付后才安全，见 references §一）</text>
+
+  <line x1="824" y1="356" x2="1128" y2="356" stroke="#fecaca" stroke-width="1"/>
+
+  <text x="824" y="380" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#b91c1c">耗时</text>
+  <text x="1128" y="380" font-family="sans-serif" font-size="13" font-weight="700" fill="#7f1d1d" text-anchor="end">60 min</text>
+
+  <text x="824" y="406" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#b91c1c">为什么是这个时点</text>
+  <text x="824" y="428" font-family="sans-serif" font-size="12" fill="#991b1b">口径要对照原始记录；结尾必须趁记忆</text>
+  <text x="824" y="446" font-family="sans-serif" font-size="12" fill="#991b1b">还在。拖过一周，细节忘光了只能现编，</text>
+  <text x="824" y="464" font-family="sans-serif" font-size="12" fill="#991b1b">现编的一被追问就露。</text>
+
+  <!-- ═══ 两个例外 ═══ -->
+  <rect x="48" y="508" width="552" height="118" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="72" y="536" font-family="sans-serif" font-size="14" font-weight="700" fill="#166534">✓ 唯一允许"最后才写"：第二屏分流表</text>
+  <text x="72" y="562" font-family="sans-serif" font-size="12.5" fill="#15803d">它依赖最终章节结构，提前写必然返工。但排起来只要 5 分钟，</text>
+  <text x="72" y="582" font-family="sans-serif" font-size="12.5" fill="#15803d">所以"最后写"不等于"交付前 5 分钟才想"—— 章节一冻结就排。</text>
+  <text x="72" y="608" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#166534">四路读者：快速理解 / 跑起来 / 审代码 / 看过程。</text>
+
+  <rect x="600" y="508" width="552" height="118" rx="8" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="624" y="536" font-family="sans-serif" font-size="14" font-weight="700" fill="#991b1b">✗ 绝对不能最后才写：③ 边界段</text>
+  <text x="624" y="562" font-family="sans-serif" font-size="12.5" fill="#b91c1c">它是唯一"必须当场记"的东西：每砍掉一个功能、每降级一次方案，</text>
+  <text x="624" y="582" font-family="sans-serif" font-size="12.5" fill="#b91c1c">就在踩坑记录里记一行。不记，事后你只会记得成功的部分 ——</text>
+  <text x="624" y="608" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#991b1c">而"边界"正是读者分辨真假的那一栏。</text>
+</svg>

@@ -1,0 +1,17 @@
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# 本 skill 自测用的渲染临时产物（见 SKILL.md「来源与维护」）
+_check_*.png
+_m_*.html
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
