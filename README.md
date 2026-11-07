@@ -4,11 +4,11 @@
 
 **一句话：把 README 当分流器写，不当目录写。**
 
-一份 README 的成败在前 12 行。陌生人打开仓库，是点进去继续看还是直接关掉，在这一屏就定了。
-本 skill 给一套经过实测的写法：它不负责"讲清楚"，只负责"把对的读者送到对的那一页"。
+一份 README 的成败在前 12 行：陌生人打开仓库，是点进去继续看还是直接关掉，在这一屏就定了。本 skill 给一套经过实测的写法——不负责"讲清楚"，只负责"把对的读者送到对的那一页"。
 
-方法论抽取自 [hackathon-flow](https://github.com/fqyy360t/hackathon-flow) 的 README 章节，
-已去除赛程语境（G2 / F 点 / 评分表），保留全部可迁移手法。
+方法论抽取自 [hackathon-flow](https://github.com/fqyy360t/hackathon-flow) 的 README 章节，已去除赛程语境（G2 / F 点 / 评分表），保留全部可迁移手法。
+
+![同一个项目的两种第一屏：写成品目录 vs 写成分流器](images/00-hero.png)
 
 ---
 
@@ -44,7 +44,7 @@ README 写砸的方式高度一致：写成目录、写成架构文档、数字�
 | [references/README与门面.md](references/README与门面.md) | 方法论全文：实测时间线、五手法论证、自查 12 项判据、适用边界 |
 | [assets/README模板.md](assets/README模板.md) | 可直接复制到仓库根的模板，每段带前置条件提示 |
 | [examples/demo-README.md](examples/demo-README.md) | 填好的成品样例（虚构项目 CheckMate 设备点检助手） |
-| [images/](images/) | 三张结构图：三层分流器 / 分三次写 / 数字与状态 |
+| [images/](images/) | hero 对比图 + 三张结构图：三层分流器 / 分三次写 / 数字与状态 |
 
 ## 三个核心设计
 
@@ -109,7 +109,7 @@ github-readme/
 |---|---|
 | 说了"写 README"但 skill 没触发 | 确认目录在 `~/.workbuddy/skills/github-readme/`，且 `SKILL.md` front-matter 有 name + description |
 | 模板里的占位符没删干净 | 交付前搜一遍尖括号、方括号注释与示例密钥残留 |
-| 图片在 GitHub 上不显示 | `images/` 里是 SVG，用相对路径引用；确认没把渲染自测的临时产物一起提交 |
+| 图片在 GitHub 上不显示 | hero 用 PNG 兜底（部分渲染器不认 SVG）；确认没把渲染自测的临时产物一起提交 |
 
 ---
 

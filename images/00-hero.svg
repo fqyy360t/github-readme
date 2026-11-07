@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="github-readme skill 介绍图：左侧为写成品目录的烂 README 第一屏（讲技术栈、线性目录、30秒后读者关掉页面），右侧为写成分流器的第一屏（名字、一句话、一个巨大入口，四种读者各走各路），底部为你会得到什么与10秒接入方式。">
+  <rect width="1200" height="700" fill="#ffffff"/>
+
+  <!-- ═══ 标题 ═══ -->
+  <text x="48" y="52" font-family="sans-serif" font-size="30" font-weight="700" fill="#111827">github-readme</text>
+  <text x="48" y="84" font-family="sans-serif" font-size="14" fill="#6b7280">把 README 当分流器写，不当目录写 —— 让陌生人 30 秒知道这是什么</text>
+
+  <!-- ═══ 左卡：写成品目录 ═══ -->
+  <rect x="48" y="110" width="422" height="360" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <rect x="48" y="110" width="422" height="34" rx="10" fill="#fee2e2"/>
+  <text x="68" y="133" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#991b1b">✗ 写成品目录</text>
+  <text x="450" y="133" font-family="sans-serif" font-size="11.5" fill="#b91c1c" text-anchor="end">第一屏</text>
+
+  <!-- 烂 README 示意 -->
+  <rect x="68" y="158" width="382" height="176" rx="6" fill="#ffffff" stroke="#fecaca"/>
+  <text x="84" y="180" font-family="sans-serif" font-size="12.5" fill="#7f1d1d"># 基于 FastAPI + React + Redis 的</text>
+  <text x="84" y="200" font-family="sans-serif" font-size="12.5" fill="#7f1d1d"># 智能设备点检系统</text>
+  <text x="84" y="228" font-family="sans-serif" font-size="12" font-weight="700" fill="#991b1b">## 目录</text>
+  <text x="84" y="250" font-family="sans-serif" font-size="11.5" fill="#b91c1c">- 环境要求与依赖版本</text>
+  <text x="84" y="270" font-family="sans-serif" font-size="11.5" fill="#b91c1c">- 技术栈说明与选型理由</text>
+  <text x="84" y="290" font-family="sans-serif" font-size="11.5" fill="#b91c1c">- 系统架构设计 / 数据库 ER 图</text>
+  <text x="84" y="310" font-family="sans-serif" font-size="11.5" fill="#b91c1c">- 部署与运维文档</text>
+  <text x="84" y="326" font-family="sans-serif" font-size="11.5" fill="#b91c1c">- API 接口清单（38 个）· 贡献指南 · License</text>
+
+  <!-- 左卡判据 -->
+  <text x="68" y="368" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#991b1c">第一屏就在讲技术栈 → 零信息量</text>
+  <text x="68" y="390" font-family="sans-serif" font-size="12.5" fill="#b91c1c">把自己写代码的顺序，当成了读者的阅读顺序</text>
+  <text x="68" y="416" font-family="sans-serif" font-size="13" font-weight="700" fill="#7f1d1d">30 秒后，读者关掉了页面</text>
+  <text x="68" y="442" font-family="sans-serif" font-size="11.5" fill="#b91c1c">想快速了解的人，被迫先看"环境要求"</text>
+
+  <!-- ═══ 中间箭头 ═══ -->
+  <text x="524" y="262" font-family="sans-serif" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">同一个项目</text>
+  <line x1="478" y1="292" x2="556" y2="292" stroke="#9ca3af" stroke-width="2.5"/>
+  <path d="M 548 283 L 560 292 L 548 301" fill="none" stroke="#9ca3af" stroke-width="2.5"/>
+  <text x="524" y="322" font-family="sans-serif" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">换个写法</text>
+
+  <!-- ═══ 右卡：写成分流器 ═══ -->
+  <rect x="580" y="110" width="572" height="360" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+  <rect x="580" y="110" width="572" height="34" rx="10" fill="#dcfce7"/>
+  <text x="600" y="133" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#166534">✓ 写成分流器</text>
+  <text x="1132" y="133" font-family="sans-serif" font-size="11.5" fill="#15803d" text-anchor="end">第一屏 12 行内</text>
+
+  <!-- 好 README 示意 -->
+  <rect x="600" y="158" width="532" height="128" rx="6" fill="#ffffff" stroke="#bbf7d0"/>
+  <text x="616" y="180" font-family="sans-serif" font-size="13" font-weight="700" fill="#14532d"># CheckMate 现场点检助手</text>
+  <text x="616" y="202" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#2563eb">## → 点击打开：图文项目介绍 ↗</text>
+  <rect x="616" y="214" width="150" height="46" rx="4" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="691" y="242" font-family="sans-serif" font-size="11" fill="#64748b" text-anchor="middle">预览图</text>
+  <text x="780" y="230" font-family="sans-serif" font-size="12" fill="#166534">建议先看这一页：架构 · 双端截图</text>
+  <text x="780" y="250" font-family="sans-serif" font-size="12" fill="#166534">核心流程 · 改进闭环</text>
+  <text x="616" y="276" font-family="sans-serif" font-size="12" font-weight="700" fill="#14532d">给巡检工人：把"老师傅看一眼"变成能归档的记录</text>
+
+  <!-- 四条分流路径 -->
+  <line x1="600" y1="300" x2="1132" y2="300" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="600" y="320" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#166534">第二屏：从哪里开始阅读 —— 按目的分四路</text>
+  <g font-family="sans-serif" font-size="12">
+    <circle cx="608" cy="342" r="4" fill="#22c55e"/>
+    <text x="622" y="346" fill="#14532d">快速了解这个项目</text>
+    <text x="760" y="346" fill="#15803d">→ 核心设计 → 功能 → 验证结果</text>
+
+    <circle cx="608" cy="366" r="4" fill="#3b82f6"/>
+    <text x="622" y="370" fill="#14532d">把代码在本机跑起来</text>
+    <text x="760" y="370" fill="#15803d">→ 怎么跑 → 常见问题</text>
+
+    <circle cx="608" cy="390" r="4" fill="#a855f7"/>
+    <text x="622" y="394" fill="#14532d">审阅技术实现</text>
+    <text x="760" y="394" fill="#15803d">→ 项目结构 → 主链路</text>
+
+    <circle cx="608" cy="414" r="4" fill="#f59e0b"/>
+    <text x="622" y="418" fill="#14532d">看过程与体会</text>
+    <text x="760" y="418" fill="#15803d">→ 复盘 → 讲解稿</text>
+  </g>
+
+  <text x="600" y="448" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#166534">四种读者各走各路，每路 3–5 跳 · 全文 ≤ 120 行</text>
+
+  <!-- ═══ 底部：你得到什么 / 怎么用 ═══ -->
+  <rect x="48" y="492" width="552" height="120" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="68" y="518" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#111827">你得到什么</text>
+  <g font-family="sans-serif" font-size="12">
+    <text x="68" y="540" fill="#374151"><tspan font-weight="700" fill="#111827">SKILL.md</tspan> —— 主流程 + 五手法 + 12 项机械检查</text>
+    <text x="68" y="560" fill="#374151"><tspan font-weight="700" fill="#111827">references/</tspan> —— 方法论全文（实测依据与边界）</text>
+    <text x="68" y="580" fill="#374151"><tspan font-weight="700" fill="#111827">assets/</tspan> —— 可直接复制的 README 模板</text>
+    <text x="68" y="600" fill="#374151"><tspan font-weight="700" fill="#111827">examples/ images/</tspan> —— 填好的样例 + 三张结构图</text>
+  </g>
+
+  <rect x="600" y="492" width="552" height="120" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="620" y="518" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#111827">怎么用（约 10 秒）</text>
+  <rect x="620" y="530" width="512" height="24" rx="4" fill="#111827"/>
+  <text x="632" y="547" font-family="sans-serif" font-size="11.5" fill="#ffffff">$ cp -r github-readme ~/.workbuddy/skills/</text>
+  <text x="620" y="572" font-family="sans-serif" font-size="12" fill="#374151">然后直接说：<tspan font-weight="700" fill="#111827">「帮我写一份 README」</tspan> / <tspan font-weight="700" fill="#111827">「这个 readme 优化一下」</tspan></text>
+  <text x="620" y="594" font-family="sans-serif" font-size="12" fill="#374151">适配 Claude Code / Codex：同名文件放到各自 skills 目录即可</text>
+
+  <!-- ═══ 底部深色判据条 ═══ -->
+  <rect x="48" y="632" width="1104" height="56" rx="8" fill="#111827"/>
+  <text x="68" y="657" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">三个手法锚点</text>
+  <text x="68" y="678" font-family="sans-serif" font-size="12" fill="#9ca3af">抽取自 hackathon-flow · 已去除赛程语境</text>
+  <g font-family="sans-serif" font-size="12.5" fill="#e5e7eb">
+    <text x="300" y="657">三层分流器 · 全文 ≤ 120 行</text>
+    <text x="300" y="678">分三次写 · 每次只写写得真的部分</text>
+    <text x="640" y="657">数字四件套 · 分母 + 口径 + 来源</text>
+    <text x="640" y="678">六分类状态词 · 全文搜不到"已完成"</text>
+  </g>
+</svg>
